@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+.container{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+nav{
+    position: absolute;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-logo{
+    width: 20%;
+}   
+
+.nav-logo img{
+    width: 70%;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-apointment{
+    
+}
+
+.nav-apointment a{
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    padding: 16px 35px;
+    border-radius: 40px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+#intro{
+    background-image: url(../images/Thermo_slide1.jpg);
+}
+
+
+
+.intro-all{
+    padding-top: 40px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+.intro-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'Jost';
+}
+
+.intro-info h1{
+    font-size: 56px;
+}
+
+.intro-info a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Jost'; 
+    padding: 16px 35px;
+    background-color:rgb(0, 107, 166);
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.intro-image{
+    width: 100%;
+}
+
+.intro-image img{
+    width: 100%;
+}
+
+.intro-polygon{
+    position: relative;
+}
+
+.intro-polygon img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.products-title{
+    width: 100%;
+    text-align: center;
+    font-family: 'Jost';
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.products-title h1{
+    font-size: 36px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Jost';
+}
+
+.products h1{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.product-details{
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10px 0px 30px 0px;
+}
+
+.product{
+    width: 32%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.product img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-info{
+    background-color: #f2f2f2;
+    border-radius: 0 0 10px 10px;
+}
+
+/* .product-container{
+    margin-right: 10px;
+    margin-left: 10px;
+} */
+
+.product-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-stars i{
+    color: rgb(165, 165, 165);
+    font-size: 14px;
+}
+
+.product-over{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 35px 18px;
+}
+
+.products-button{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.products-button a{
+    font-size: 14px;
+    font-family: 'Poppins';
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: rgb(0, 107, 166);
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+#premium{
+    background-image: url(../images/Premium-bg.jpg);
+}
+
+.premium-details{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.premium-title{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 22px;
+}
+
+.premium-desc{
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.premium-text-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.premium-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.premium-btn a{
+    color: rgb(0, 107, 166);
+    font-family: Poppins;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+#digital{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+
+.digital-title{
+    font-family: Jost;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.digital-thermos{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.digital-thermo-name{
+    background-color: #f2f2f2;
+    padding: 5px 30px;
+    border-radius: 0 0 10px 10px;
+    font-family: Jost;
+}
+
+.digital-thermo-name h1{
+    font-weight: 400;
+}
+
+.digital-thermo-img{
+    width: 100%;
+}
+
+.digital-thermo-img img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.digital-btn{
+    text-align: center;
+    padding: 50px;
+}
+
+.digital-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 107, 166);
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: Jost;
+}
+
+.subscribe-items{
+    background-image: url(../images/subscribe-overlay1.jpg);
+    padding: 150px 0;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.subscribe-head{
+    width: 600px;
+}
+
+.subscribe-items h1{
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.subscribe-items p{
+    
+}
+
+.subscribe-email{
+    display: flex;
+    position: relative;
+}
+
+.subscribe-inp input{
+    padding: 20px;
+    width: 600px;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    font-family: Jost;
+    font-size: 18px;
+}
+
+.subscribe-btn a{
+    color: white;
+    background-color: #898989;
+    text-decoration: none;
+    border-radius: 30px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    padding: 15px 30px
+}
+
+#partner{
+    padding-top: 180px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partner-head{
+    width: 550px;
+    padding-bottom: 50px;
+}
+
+.partner-title{
+    display: flex;
+    justify-content: center;
+}
+
+.partner-brand img{
+    width: 100px;
+    filter: saturate(0);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.partner-brand img:hover{
+    opacity: 1;
+    filter: saturate(1);
+}
+
+.partner-title h1{
+    font-family: Poppins;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.partner-desc p{
+    font-family: Poppins;
+    text-align: center;
+    color: #898989;
+}
+
+.partner-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.benefit-polygon{
+    position: absolute;
+}
+
+.benefit-polygon img{
+    width: 100%;
+    /* background-color: red; */
+}
+
+#benefit-polygon2{
+    bottom: 0px;
+}
+
+#benefit-polygon2 img{
+    vertical-align: bottom;
+}
+
+#benefit-polygon1 img{
+    vertical-align: top;
+}
+
+#benefit{
+    background-color: #f5f7fb;
+    position: relative;
+    /* padding-bottom: 200px; */
+}
+
+.benefit-item-icon img{
+    width: 60px;
+}
+
+.benefit-all{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.benefit-title{
+    font-family: Jost;
+    padding-bottom: 50px;
+    font-size: 22px;
+}
+
+.benefit-title h1{
+    color: #434959;
+}
+
+.benefit-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefit-item{
+    width: 280px;
+    height: 200px;
+    padding-right: 20px;
+}
+
+.benefit-item-title{
+}
+
+.benefit-item-title h1{
+    color: #434959;
+    font-family: Jost;
+    /* font-size: 22px; */
+}
+
+.benefit-item-title p{
+    font-family: Poppins;
+    font-size: 15px;
+    color: #777;
+}
+
+.benefit-image img{
+    width: 100%;
+}
+
+
+#new-clinika{
+    padding-top: 70px;
+}
+
+.new-clinika-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.new-clinika-title{
+    width: 550px;
+    text-align: center;
+}
+
+.new-clinika-head h1{
+    font-size: 36px;
+    font-family: Jost;
+}
+
+.new-clinika-head p{
+    font-family: Poppins;
+}
+
+.new-clinika-cards{
+    display: flex;
+}
+
+.new-clinika-card{
+
+}
+
+.new-clinika-card-image{
+    width: 35%;
+}
+
+.new-clinika-card-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.new-clinika-card-head{
+    width: 30%;
+}
+
+.new-clinika-card-head h1{
+    font-family: Jost;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+
+.new-clinika-card-head p{
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.new-clinika-card-btn a{
+    text-decoration: none;
+    font-family: Jost;
+    font-weight: 600;
+    color: black;
+}
+
+
+footer{
+    background-image: url(../images/subscribe-overlay1.jpg);
+}
+
+.footer-polygon{
+    position: absolute;
+}
+
+.footer-polygon img{
+    width: 100%;
+}
+
+.footer-links{
+    padding-top: 150px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-links h1{
+    color: white;
+    font-family: Jost;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.footer-links li{
+    list-style: none;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.footer-subscribe h1{
+    font-family: Jost;
+    color: white;
+}
+
+.footer-subscribe p{
+    color: white;
+    font-family: Poppins;
+}
+
+.footer-sub-email{
+    display: flex;
+    position: relative;
+}
+
+.email-input{
+    padding-top: 10px;
+}
+
+.footer-sub-email input{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.footer-subscribe .send-btn{
+    padding: 10px;
+    background-color: #777;
+    position: absolute;
+    border-radius: 20px;
+    right: 5px;
+    top: 15px;
+}
